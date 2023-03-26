@@ -1,0 +1,5 @@
+{
+  "extends": "../base/index.json",
+  "lib": ["ESNext", "DOM"],
+  "removeComments": true
+}

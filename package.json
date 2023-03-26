@@ -1,0 +1,25 @@
+{
+  "name": "@tooz/tsconfig",
+  "version": "0.0.1",
+  "scripts": {
+    "publish": "npm patch && npm publish"
+  },
+  "description": "base config file for typescript.",
+  "keywords": [
+    "tsconfig"
+  ],
+  "author": "tooz <zhoutao_233@163.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@7.30.3",
+  "homepage": "https://github.com/zhou-tao/tsconfig",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhou-tao/tsconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhou-tao/tsconfig/issues"
+  },
+  "exports": {
+    ".": "./"
+  }
+}
