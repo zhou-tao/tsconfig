@@ -1,5 +1,7 @@
 {
   "extends": "../base/index.json",
-  "lib": ["ESNext", "DOM"],
-  "removeComments": true
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "removeComments": true
+  }
 }

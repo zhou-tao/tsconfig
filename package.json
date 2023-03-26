@@ -2,6 +2,7 @@
   "name": "@tooz/tsconfig",
   "version": "0.0.1",
   "scripts": {
+    "release": "npm version patch && npm publish"
   },
   "files": [
     "app",
