@@ -1,6 +1,6 @@
 {
   "name": "@tooz/tsconfig",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "release": "npm version patch -m 'chore： release v%s' && npm publish"
   },
