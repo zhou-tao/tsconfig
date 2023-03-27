@@ -28,6 +28,7 @@
     "access": "public"
   },
   "exports": {
-    ".": "./"
+    "base": "./base/index.json",
+    "vue": "./app/vue.json"
   }
 }

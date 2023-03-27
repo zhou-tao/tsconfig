@@ -4,7 +4,6 @@
     "module": "ESNext",
     "strict": true,
     "allowJs": false,
-    "outDir": "dist",
     "jsx": "preserve",
     "noUnusedLocals": true,
     "removeComments": false,
