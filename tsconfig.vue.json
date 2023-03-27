@@ -1,5 +1,5 @@
 {
-  "extends": "../base/index.json",
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "lib": ["ESNext", "DOM"],
     "removeComments": true

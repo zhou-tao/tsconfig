@@ -4,10 +4,7 @@
   "scripts": {
     "release": "npm version patch -m 'chore： release v%s' && npm publish"
   },
-  "files": [
-    "app",
-    "base"
-  ],
+  "main": "tsconfig.base.json",
   "description": "base config file for typescript.",
   "keywords": [
     "tsconfig"
@@ -26,9 +23,5 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
-  },
-  "exports": {
-    "base": "./base/index.json",
-    "vue": "./app/vue.json"
   }
 }

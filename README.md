@@ -5,21 +5,22 @@ For unified management typescript config in every app.
 ### Install
 
 ```js
-npm i @tooz/tsconfig
+npm i @tooz/tsconfig -D
 ```
 
 ### Usage
 
-add `extends: '@tooz/tsconfig/tsconfig.app.json'` in your `tsconfig.json`.
+add `extends: '@tooz/tsconfig/tsconfig.vue.json'` in your `tsconfig.json`.
 
 ```json
 {
-  "extends": "@tooz/tsconfig/tsconfig.app.json",
-  "include": "",
+  "extends": "@tooz/tsconfig/tsconfig.vue.json",
   ...
 }
 ```
 
 ### License
 
-MIT
+[MIT](https://github.com/zhou-tao/tsconfig/LICENSE)
+
+Copyright (c) 2022 zhou-tao
