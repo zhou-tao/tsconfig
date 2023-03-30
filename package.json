@@ -7,6 +7,9 @@
   },
   "main": "tsconfig.base.json",
   "description": "base config file for typescript.",
+  "files": [
+    "*.json"
+  ],
   "keywords": [
     "tsconfig"
   ],
