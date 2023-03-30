@@ -2,8 +2,8 @@
   "name": "@tooz/tsconfig",
   "version": "0.0.5",
   "scripts": {
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "release": "npm version patch -m 'chore： release v%s' && npm publish"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "release": "npm version patch && npm publish"
   },
   "main": "tsconfig.base.json",
   "description": "base config file for typescript.",
