@@ -10,17 +10,15 @@ npm i @tooz/tsconfig -D
 
 ### Usage
 
-add `extends: '@tooz/tsconfig/tsconfig.vue.json'` in your `tsconfig.json`.
-
 ```json
 {
   "extends": "@tooz/tsconfig/tsconfig.vue.json",
-  ...
+  // ...
 }
 ```
 
 ### License
 
-[MIT](https://github.com/zhou-tao/tsconfig/LICENSE)
+[MIT](https://github.com/zhou-tao/tsconfig/blob/main/LICENSE)
 
-Copyright (c) 2022 zhou-tao
+Copyright (c) 2022 tooz
