@@ -1,6 +1,6 @@
 {
   "name": "@tooz/tsconfig",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "main": "src/index.json",
   "scripts": {
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",

@@ -1,3 +1,13 @@
+# [1.0.0](https://github.com/zhou-tao/tsconfig/compare/v0.0.5...v1.0.0) (2023-06-25)
+
+
+### Features
+
+* add nestjs app config ([33a3e84](https://github.com/zhou-tao/tsconfig/commit/33a3e84b068e0fb4ef771cb9ffe384dc85b37a05))
+* optimize exports & rename vue to web ([3c9a099](https://github.com/zhou-tao/tsconfig/commit/3c9a09913eac91d92bc2b7522e734387ed03d147))
+
+
+
 ## [0.0.5](https://github.com/zhou-tao/tsconfig/compare/v0.0.3...v0.0.5) (2023-03-27)
 
 
