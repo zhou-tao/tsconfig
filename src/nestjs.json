@@ -2,6 +2,7 @@
   "extends": "./index",
   "compilerOptions": {
     "module": "CommonJS",
+    "moduleResolution": "node",
     "sourceMap": true,
     "incremental": true,
     "experimentalDecorators": true,
