@@ -14,7 +14,7 @@
   ],
   "exports": {
     ".": "./src/index.json",
-    "./vue": "./src/vue.json",
+    "./web": "./src/web.json",
     "./nestjs": "./src/nestjs.json"
   },
   "keywords": [
