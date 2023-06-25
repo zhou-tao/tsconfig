@@ -1,6 +1,6 @@
-# TS Config Base File
+# TS Config
 
-For unified management typescript config in every app.
+:heart: Typescript applications common configuration files.
 
 ### Install
 
@@ -10,12 +10,25 @@ npm i @tooz/tsconfig -D
 
 ### Usage
 
+Add to the extends field in your tsconfig.json.
+
+- base
+
 ```json
 {
-  "extends": "@tooz/tsconfig/tsconfig.vue.json",
-  // ...
+  "extends": "@tooz/tsconfig",
 }
 ```
+
+- web
+
+```json
+{
+  "extends": "@tooz/tsconfig/web"
+}
+```
+
+...
 
 ### License
 
