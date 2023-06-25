@@ -2,15 +2,20 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "strict": true,
-    "allowJs": false,
     "jsx": "preserve",
+
+    /* Lint */
+    "strict": true,
     "noUnusedLocals": true,
-    "removeComments": false,
-    "moduleResolution": "node",
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* module */
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "noEmit": true
   }
 }

@@ -1,0 +1,7 @@
+{
+  "extends": "./index",
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "allowImportingTsExtensions": true
+  }
+}

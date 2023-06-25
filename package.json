@@ -1,21 +1,25 @@
 {
   "name": "@tooz/tsconfig",
   "version": "0.0.5",
+  "main": "src/index.json",
   "scripts": {
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "release": "npm version patch && npm publish"
   },
-  "main": "tsconfig.base.json",
   "description": "base config file for typescript.",
   "files": [
-    "*.json"
+    "src/*.json"
   ],
   "keywords": [
     "tsconfig"
   ],
+  "exports": {
+    ".": "./src/index.json",
+    "./vue": "./src/vue.json",
+    "./nestjs": "./src/nestjs.json"
+  },
   "author": "tooz <zhoutao_233@163.com>",
   "license": "MIT",
-  "packageManager": "pnpm@7.30.3",
   "homepage": "https://github.com/zhou-tao/tsconfig",
   "repository": {
     "type": "git",
