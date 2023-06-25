@@ -1,3 +1,13 @@
+## [1.0.1](https://github.com/zhou-tao/tsconfig/compare/v1.0.0...v1.0.1) (2023-06-25)
+
+
+### Bug Fixes
+
+* bundler cannot be used for commonjs ([55e9d30](https://github.com/zhou-tao/tsconfig/commit/55e9d3049cf9bc8b7c8249bff6a15333171758ab))
+* exports web config ([713765c](https://github.com/zhou-tao/tsconfig/commit/713765c537baa56a2006bb4b5ad3e65ad2323751))
+
+
+
 # [1.0.0](https://github.com/zhou-tao/tsconfig/compare/v0.0.5...v1.0.0) (2023-06-25)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@tooz/tsconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "base config file for typescript.",
   "main": "src/index.json",
   "scripts": {
