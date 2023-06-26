@@ -1,3 +1,12 @@
+## [1.0.2](https://github.com/zhou-tao/tsconfig/compare/v1.0.1...v1.0.2) (2023-06-26)
+
+
+### Bug Fixes
+
+* noEmit in nestjs app ([53c900b](https://github.com/zhou-tao/tsconfig/commit/53c900b242fa4b92501a17aa0b777c185d9f711b))
+
+
+
 ## [1.0.1](https://github.com/zhou-tao/tsconfig/compare/v1.0.0...v1.0.1) (2023-06-25)
 
 
