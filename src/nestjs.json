@@ -3,6 +3,7 @@
   "compilerOptions": {
     "module": "CommonJS",
     "moduleResolution": "node",
+    "noEmit": false,
     "sourceMap": true,
     "incremental": true,
     "experimentalDecorators": true,
